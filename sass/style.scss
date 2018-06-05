@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+$white: #fff;
+$blue: #55ACEE;
+$cursor: pointer;
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $white;
+  background-color: $blue;
+}
+
+.app {
+  text-align: center;
+}
+
+.contactItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
+input {
+  font-size: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.3);
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+button {
+  color: $white;
+  background-color: $blue;
+  cursor: $cursor;
+  font-size: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.3);
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 50px;
+  &:hover {
+    background-color: #4283b2;
+  }
+}
+
+img { 
+  margin-top: 20px;
+  max-width: 60px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
